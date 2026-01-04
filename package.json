@@ -1,0 +1,16 @@
+{
+  "name": "node.project",
+  "version": "1.0.0",
+  "description": "node.project school",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lars Biczysko",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.1"
+  }
+}
