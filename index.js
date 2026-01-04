@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import categoryRoutes from "./routes/categories.js";
+import productRoutes from "./routes/products.js";
 
 
 mongoose
@@ -14,6 +15,7 @@ app.use(express.json());
 
 app.use("/api/categories", categoryRoutes);
 
+app.use("/api/products", productRoutes);
 
 app.get('/', (req, res) => {
   res.send('API is running'); //dit is een test
