@@ -69,7 +69,7 @@ router.post("/", async (req, res) => {
       return res.status(400).json({ message: "price is required" });
     }
 
-    // numeriek veld mag geen string zijn
+    // nummer veld mag geen string zijn
     if (typeof price !== "number") {
       return res.status(400).json({ message: "price must be a number" });
     }
