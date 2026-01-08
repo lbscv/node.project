@@ -38,7 +38,7 @@ Op de root van de applicatie (`/`) bevindt zich een HTML-pagina met documentatie
     npm install
     tailwindcss extensie downloaden
 4. Start MongoDB lokaal op
-    mongodb://127.0.0.1:27017/supermarkt
+    mongodb://127.0.0.1:27017/naamVanDb
 5. Start server
     (in bash)
     node index.js
